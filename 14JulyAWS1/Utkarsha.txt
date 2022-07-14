@@ -1,0 +1,45 @@
+Part 1 -
+    Application
+      Rich Client : High expectations from client for ex : installing application for using it
+      Thin Client : Low expectations from client for ex : websites which requires only internet and browser
+      Rich Internet Application (RIA)
+
+    Web Server
+    Monolith Applications : Huge applications
+	
+    Service Oriented Architecture (SOA): providing services to applications: payment gateway
+
+    Micro Services 
+        Load -> Predictable increase/UnPredictable
+        Scalability: Distributed severs help to cope up with extra load
+        
+       
+
+Web Site 
+	Load Balancer : Distributing load across servers to work efficiently
+	FailOver : having a backup server to handle any failure
+	Scalability : capacity to handle extra requests
+
+Cloud computing
+
+characteristics:
+On demand self service
+Broad network access
+Resource pooling 
+Rapid elasticity
+Measured service
+Multi Tenancy
+
+Services
+Infrastructure as a service (IaaS) 
+Platform as a service (PaaS) 
+Software as a Service(SaaS)
+	
+AWS:
+Created bucket in aws s3(simple storage service)
+Making public access to files in bucket
+Added user, gave him permissions
+Created group and added user
+	
+S3: storing and retrieving data
+Glacier: For archiving or backup purpose	
