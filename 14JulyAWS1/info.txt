@@ -1,0 +1,29 @@
+Part 1 -
+    Application
+      Rich Client 
+      Thin Client 
+      Rich Internet Application (RIA)
+
+    Web Server
+    Monolith Applications
+	
+    Service Oriented Architecture (SOA)
+
+    Micro Services 
+        Load -> Predictable increase/UnPredictable
+        Scalability
+        
+        https://martinfowler.com/articles/microservices.html
+
+Web Site 
+	Load Balancer
+	FailOver
+	Scalability
+
+characteristics
+	https://www.geeksforgeeks.org/characteristics-of-cloud-computing/
+	https://www.jigsawacademy.com/blogs/cloud-computing/characteristics-of-cloud-computing/
+
+AWS
+	https://aws.amazon.com/about-aws/global-infrastructure/regions_az/
+	
