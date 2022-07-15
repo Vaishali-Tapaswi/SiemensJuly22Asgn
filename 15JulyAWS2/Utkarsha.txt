@@ -1,0 +1,29 @@
+ec2 : Elastic cloud computing where instances are created
+	
+rds : Relational database where we can create database and connect plugins 
+
+dynamodb :Service for Nosql database , uses key value pair
+
+S3: storing and retrieving data
+
+S3Glacier: For archiving or backup purpose
+	
+cloudwatch : Monitoring and management service
+
+iam 	     : Create user, group and providing required access permissions
+
+
+Requirements
+	Run a web site with Node Server/tomcat/.... : ec2
+	Store User details like username, password, expiry : RDS 
+	Store user details like username, password and salary for fixed employees, commition for salesemployees, combination for officeemployees : Dynamodb
+	Store data for articles where users can comment or comment on comment :dynamodb
+	Storing customer agreements : s3
+	Check if any server is having heavy usage or create alarm for the same : cloudwatch
+	Create security for developers, deployers and testers : iam
+	
+	When to choose Iaas + DatabaseInstallation vs RDS
+	
+	Iaas requires seperate database software installation
+	where as rds provides tools for database creation and storage or instances
+		Basically rds is used for automated backup 
