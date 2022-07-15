@@ -1,0 +1,30 @@
+ec2 - Elastic Compute Cloud provides scalable computing capacity in the Amazon Web Services (AWS) Cloud. It acts as IaaS. It helps you 
+to eliminate the need to invest in hardware so you can develop and deploy applications faster.
+
+rds -  is a managed relational database service that provides you six familiar database engines to choose from, including Amazon Aurora, 
+MySQL, MariaDB, PostgreSQL, Oracle, and Microsoft SQL Server.
+
+dynamodb - it is NoSQL database service managed by Amazon. It provides fast and predictable performance with seamless scalability.
+With DynamoDB, you can create database tables that can store and retrieve any amount of data and serve any level of request traffic.
+
+S3 bucket provides object storage, which is built for storing and recovering any amount of information or data.It can be used to store
+resources which can be publicaly accessible. 
+
+S3 glacier - is a secure and durable service for low-cost data archiving and long-term backup.
+
+CloudWatch - it is used for event trigerring, monitoring and observability service. It helps in detecting 
+anomalous behavior in your environments, set alarms, visualize logs
+
+iam - is a web service that helps you securely control access to AWS resources
+
+Requirements
+	Run a web site with Node Server/tomcat/.... -  ec2
+	Store User details like username, password, expiry - RDS
+	Store user details like username, password and salary for fixed employees, commition for salesemployees, combination for 
+	office employees - dynamodb
+	Store data for articles where users can comment or comment on comment - dynamodb
+	Storing customer agreements - S3
+	Check if any server is having heavy usage or create alarm for the same - cloudwatch
+	Create security for developers, deployers and testers - IAM
+  
+  
