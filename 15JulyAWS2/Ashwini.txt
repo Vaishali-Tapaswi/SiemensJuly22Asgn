@@ -1,0 +1,41 @@
+EC2 - Elastic Compute cloud
+used to develop and deploy applications, launch virtual servers
+also used to configure security, permissions
+
+RDS - Relational database
+used to make scalable database on cloud
+
+dynamodb
+key value NoSQL
+Scalable database
+built in security
+
+s3 - Simple Storage Device
+cloud storage and object storage
+can be used to host a webpage, store files, etc
+can store any amount of data anytime
+
+s3glacier
+Same as s3 bucket, s3glacier are used to store data at low cost.
+It stores infrequent data for long term.
+
+cloudwatch
+Monitoring tool in aws used to verify security and performance
+
+IAM
+used to add users and make groups.
+Access management - here we can assign role(permissions) as needed.
+
+
+Requirements
+	Run a web site with Node Server/tomcat/....  :- ec2
+	Store User details like username, password, expiry :- rds
+	Store user details like username, password and salary for fixed employees, commition for salesemployees, combination for officeemployees  :- dynamoDB
+	Store data for articles where users can comment or comment on comment :- s3 versioning
+	Storing customer agreements :- s3
+	Check if any server is having heavy usage or create alarm for the same :- cloudwatch
+	Create security for developers, deployers and testers :- iam
+
+When to choose Iaas + DatabaseInstallation vs RDS
+RDS makes the database management easy and simple as compared to oracle. It is used when we want to scale the instance type up or down based on your workload patterns without being concerned about licensing and the complexity involved. 
+Whereas oracle with ec2 gives more flexibilty and choice. These two can be used as per need.
