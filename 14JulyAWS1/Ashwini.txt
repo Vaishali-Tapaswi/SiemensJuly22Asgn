@@ -1,6 +1,5 @@
 Application - 
 	1. Rich client(Rich internet Application - RIA) - high client expectations
-	Heavily works on internet, 
 	2. Thin client  - no expectation from client side. Only network and browser is enough. E.g teams can work on browser also.
   
 Monolith-bulky applications, built as a single unit)
