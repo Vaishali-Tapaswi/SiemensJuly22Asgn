@@ -1,1 +1,27 @@
+Application - 
+	1. Rich client(Rich internet Application - RIA) - high client expectations
+	2. Thin client  - no expectation from client side. Only network and browser is enough. E.g teams can work on browser also.
+  
+  Monolith-bulky applications, built as a single unit)
 
+Client----------------------load balancer----------------server 1 or server 2
+		          (Own IP address) ------- Round Robin-------1, 2 
+
+Load Balancing: distributing all the request (load) to servers
+Failover: Even if one of the servers fails, it won’t affect much 
+Scalability: Scale well to the number of requests coming (give good response) Purchase some more servers if the load is more. (Renting some servers for predictable load)
+Elasticity: Scale up, scale down.
+
+Cloud providers- data center consisting of hardware -------------------- AWS
+
+Cloud computing: 
+•	5 essentials- on demand self-service, broad n/w access, resource pooling, rapid elasticity, measured service, multi tenacity 
+•	3 Service models- infrastructure as service (Laas), Platform (Paas) -> Infrastructure + Tomcat/Oracle database (some kind of application) you can’t access infrastructure directly, Saas (use and configure, software as service) 
+Laas-gcp, aws, azure
+Paas- Appendra
+Saas- cisco Webex, teams 
+•	4 deployment models- 
+  . Private - open for only specific network
+  . Hybrid - both
+	. Community - 
+	. Public - open cloud
