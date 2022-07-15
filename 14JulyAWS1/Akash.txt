@@ -39,3 +39,4 @@ AWS
  - S3 glacier is a secure and durable service for low-cost data archiving and long-term backup.
  - Created groups and added users with policies and access permissions
   
+db.cew5ioszuywa.us-east-1.rds.amazonaws.com
