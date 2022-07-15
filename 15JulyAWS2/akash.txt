@@ -1,0 +1,19 @@
+iam - With IAM, you can specify who can access which services and resources, and under which conditions.
+ec2 - an EC2 is a virtual machine that represents a physical server for you to deploy your applications
+dynamoDB - Amazon DynamoDB is a fully managed, serverless, key-value NoSQL database designed to run high-performance applications at any scale
+s3 - Amazon S3 is an object storage service that stores data as objects within buckets. An object is a file and any metadata that describes the file.
+s3 glacier - Amazon S3 Glacier (S3 Glacier) is a secure and durable service for low-cost data archiving and long-term backup. With S3 Glacier, you can store your data cost effectively for months, years, or even decades.
+cloudwatch - Amazon CloudWatch is a monitoring and management service that provides data and actionable insights for AWS, hybrid, and on-premises applications and infrastructure resources.
+
+
+Requirements
+	Run a web site with Node Server/tomcat/....  :- ec2
+	Store User details like username, password, expiry :- rds
+	Store user details like username, password and salary for fixed employees, commition for salesemployees, combination for officeemployees  :- dynamoDB
+	Store data for articles where users can comment or comment on comment :- s3 versioning
+	Storing customer agreements :- s3
+	Check if any server is having heavy usage or create alarm for the same :- cloudwatch
+	Create security for developers, deployers and testers :- iam
+	
+	When to choose Iaas + DatabaseInstallation vs RDS
+Amazon RDS is easier to set up, manage, and maintain than running Oracle Database on Amazon EC2, and lets you focus on other important tasks, rather than the day-to-day administration of Oracle Database. Alternatively, running Oracle Database on Amazon EC2 gives you more control, flexibility, and choice. Depending on your application and your requirements, you might prefer one over the other.
