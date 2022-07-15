@@ -1,0 +1,15 @@
+Watch CloudWatch video
+ec2, rds, dynamodb, s3, s3glacier, cloudwatch, iam 
+
+
+Requirements
+	Run a web site with Node Server/tomcat/....
+	Store User details like username, password, expiry
+	Store user details like username, password and salary for fixed employees, commition for salesemployees, combination for officeemployees 
+	Store data for articles where users can comment or comment on comment
+	Storing customer agreements
+	Check if any server is having heavy usage or create alarm for the same
+	Create security for developers, deployers and testers
+	
+	When to choose Iaas + DatabaseInstallation vs RDS
+	
