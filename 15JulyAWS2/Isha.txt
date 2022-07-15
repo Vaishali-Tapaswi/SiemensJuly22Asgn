@@ -1,0 +1,32 @@
+EC2:
+Infrasture
+can create instaces to connect from anywhere provided the proper access is given
+
+RDS: 
+Create Database--> Infra + Software(MySQL) --> PaaS , open source cloud managed database
+
+dynamodB:
+NoSQL database, data can be stored for different catagories and no need to have all the categories for all the entries. only partition key(primary data should be given for each entry)
+
+S3: fast, simple, frequent access of data
+used for Scalable solutions
+
+S3Glacier: used for archived solutions, long term backups
+
+
+IAM:Provides conrolled access, can even group people to give same access without adding acceess to each of them individually
+
+
+Requirements
+	Run a web site with Node Server/tomcat/.... --> EC2
+	Store User details like username, password, expiry--> RDS
+	Store user details like username, password and salary for fixed employees, commition for salesemployees, combination for officeemployees --> dynamodB
+	Store data for articles where users can comment or comment on comment --> DynamodB
+	Storing customer agreements--> s3
+	Check if any server is having heavy usage or create alarm for the same --> Cloudwatch
+	Create security for developers, deployers and testers--> IAM
+	
+	When to choose Iaas + DatabaseInstallation vs RDS
+  RDS is Paas with ready database which procides automated backup
+  Iass + database installation is used for monitoring, security, application development,
+  
