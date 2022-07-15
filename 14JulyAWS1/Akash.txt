@@ -1,0 +1,41 @@
+Applications - 
+  Rich Client - high expectations from client
+  Thin Client - low expectations
+                it works by connecting to remote server, where application and data are stored
+  Rich Internet Application - Web-based applications
+                              It requires a browser to deliver user application
+                           
+Monolith (Heavy or bulky applications)
+  Client -> Presentation layer -> Business layer -> Persistent layer -> Database
+  They are complex and contains multiple functions coupled tightly into one large application. If one program component must be updated, 
+  other elements may also require rewriting, and the whole application has to be recompiled and tested
+  
+Service Oriented Architecture (SOA) - designed to give services to other applications through the protocol. They are self contained.
+                                      eg: any payment gateway 
+
+Cloud Computing
+  Load balancer - dividing workload and computing properties. It has it's own IP and decides which server to use by round robin method
+  Failover - it is the ability to seamlessly and automatically switch to a reliable backup system
+  Scalibility - used to handle the growing workload where good performance is also needed to work efficiently with software or applications.
+  Elasticity - used to handle the growing workload where good performance is also needed to work efficiently with software or applications
+  
+Characters - 
+  - On demand self service
+  - Broad network service 
+  - Resource pooling
+  - Rapid elasticity
+  - Measured service
+  - Multi-tenacity (Shared resources)
+ 
+Services
+ - Infrastructure as a service (IaaS) - infrastructure is provided as outsourcing to enterprises such as networking equipment, devices, database, and web servers. 
+ - Platform as a service (PaaS) - hosts the hardware and software on its own infrastructure.
+ - Software as a Service(SaaS) - cannot modify software given, can only use and modify
+ 
+AWS
+ - Created AWS account
+ - S3 bucket provides object storage, which is built for storing and recovering any amount of information or data.
+ - Created bucket and made public to access it from the URL
+ - S3 glacier is a secure and durable service for low-cost data archiving and long-term backup.
+ - Created groups and added users with policies and access permissions
+  
