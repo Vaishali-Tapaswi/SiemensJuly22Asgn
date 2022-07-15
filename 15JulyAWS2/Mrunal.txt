@@ -27,4 +27,6 @@ Requirements
 	Check if any server is having heavy usage or create alarm for the same - cloudwatch
 	Create security for developers, deployers and testers - IAM
   
-  
+  When to choose Iaas + DatabaseInstallation vs RDS
+	RDS is Paas with ready database which procides automated backup
+  	Iass + database installation is used for monitoring, security, application development,
