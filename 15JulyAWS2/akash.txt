@@ -10,7 +10,7 @@ Requirements
 	Run a web site with Node Server/tomcat/....  :- ec2
 	Store User details like username, password, expiry :- rds
 	Store user details like username, password and salary for fixed employees, commition for salesemployees, combination for officeemployees  :- dynamoDB
-	Store data for articles where users can comment or comment on comment :- s3 versioning
+	Store data for articles where users can comment or comment on comment :- dynamoDB
 	Storing customer agreements :- s3
 	Check if any server is having heavy usage or create alarm for the same :- cloudwatch
 	Create security for developers, deployers and testers :- iam
