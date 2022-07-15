@@ -1,0 +1,53 @@
+Application - 
+	1. Rich client(Rich internet Application - RIA) - high client expectations
+	Heavily works on internet, 
+	2. Thin client  - no expectation from client side. Only network and browser is enough. E.g teams can work on browser also.
+  
+Monolith-bulky applications, built as a single unit)
+
+micro services-
+Break application into small services like in case if uber booking keep search app, payment app, etc different to avoid server over loading with users
+	
+Load-
+1. Predictable load
+2. Unpredictable load
+
+--------------------------------------------AWS-------------------------------------
+Load Balancer -
+Client connects to load balancer then it connects to one of the server which is up.
+Load balancer has its own IP address
+It uses round robin to transfer the load to servers available.
+Advantage - if one of the server crash the load can be transferred to other servers easily.
+
+Elasticity - scaling up and down according to the need.
+
+Cloud provider
+	1. AWS
+	2. Azure
+	3. GCP
+
+5 essential characteristics of cloud computing
+	1. On demand self service
+	2. Broad network access
+	3. Resource pooling
+	4. Rapid elasticity
+	5. Measured service
+	6.Multi tenacity
+
+Types of cloud computing:
+	1. Infrastructure as a service - just providing the infrastructure and rest setting up on us. 
+		a. AWS
+		b. Azure
+		c. GCE(Google compute engine)
+	2. Platform as a service - IAAS + some tool/appln
+		a. Apprenda
+		b. All IAAS applications
+	3. Software as a service - use and configure the provided software only.
+		a. Google app
+		b. Teams
+
+Deployment models
+	1. Private - open for only specific network
+	2. Hybrid - both
+	3. Community - 
+	4. Public - open cloud
