@@ -1,0 +1,16 @@
+Work - create a folder Demo2_19
+Lab1 - Accept Name and Age from user. Also accept whether he want two/four wheeler licence.
+	Age between 16 and 18 - Only two wheeler
+	Age between 18 to 70 - two wheeler or four wheeler
+	Age > 70 and Age < 16  - Invalid
+	Show Eligible or NotEligible
+Lab2 - 
+	Accept a number as command line argument and print fibonacci series till that number
+		What are the 6 Fibonacci numbers?
+		0, 1, 1, 2, 3, 5, 8, 13, 21, 34, 55, 89, 144, 233, 377, 610, 987, 1597, 2584, 4181....
+		
+Lab3 - Write a function to accept two numbers and return sqr and cube (multiple returns)
+Lab 4 - Write a function to accept two strings and return sum of length of two strings
+
+Lab 5 - Write a Simple.go to have a function Hello(no input param no return ) in folder c:\users\xxx\gocode
+	Write Lab5.go in c:\xxx and invoke Hello function from Simple.go using GOPATH
