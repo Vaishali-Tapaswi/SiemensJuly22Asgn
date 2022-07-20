@@ -9,3 +9,56 @@
                                R -> Show all entries in MAP
                                U -> change existing student marks
                                D -> Delete that student entry - delete(m, key)
+
+package main
+
+import "fmt"
+
+func main() {
+	var m map[string]int
+	m = make(map[string]int)
+		data := "a"
+	for{
+		fmt.Println("Enter C for creating, R to read, U to update or D to delete: ")
+
+		fmt.Scanln(&data);
+		switch  data {
+		case "C" :
+			name:="a"
+			marks:=0
+			fmt.Println("Enter your Name and Marks ")
+			fmt.Print("Name : ")
+			fmt.Scanln(&name)
+			fmt.Print("Marks : ")
+			fmt.Scanln(&marks)
+			fmt.Println(" debug " , name, ",",marks)
+			m[name]=marks
+		//create
+		case "R":
+			for i, v := range m {
+				fmt.Println("i = ", i, "Value = ", v)
+			}
+		case "U":
+			//fmt.Scanln(m[&udata])
+			fmt.Println("updated data: ")
+			for i, v := range m {
+				fmt.Println("i = ", i, "Value = ", v)
+			}
+
+		case "D":
+			del := "aa"
+			fmt.Scanln(&del)
+			delete(m, del)
+			fmt.Println("After Deletion")
+			for i, v := range m {
+				fmt.Println("i = ", i, "Value = ", v)
+			}
+		default:
+			fmt.Println("Invalid")
+		}
+		}
+		for i, v := range m {
+			fmt.Println("i = ", i, "Value = ", v)
+		}
+
+}
