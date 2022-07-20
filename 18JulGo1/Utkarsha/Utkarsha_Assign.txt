@@ -1,0 +1,157 @@
+//Lab1
+package main
+
+import "fmt"
+
+func main() {
+	var name string
+	var age int
+	var vehicle int
+	fmt.Println("Enter your name")
+	fmt.Scanln(&name)
+	fmt.Println("Enter your age")
+	fmt.Scanln(&age)
+	fmt.Println("Enter your choice : 1)two wheeler 2)four wheeler")
+	fmt.Scanln(&vehicle)
+
+	if age > 16 && age < 18 {
+		fmt.Println("You are elgible for Only two wheeler")
+	} else if 18 < age && age < 70 {
+		fmt.Println("You are elgible for two wheeler or four wheeler")
+	} else {
+		fmt.Println("Invalid age for license")
+	}
+
+}
+//////////////////////////////////////////////////////
+
+//Lab2
+
+package main
+
+
+
+import (
+
+    "fmt"
+
+    "os"
+
+    "strconv"
+
+)
+
+
+
+func main() {
+
+    number := os.Args[1]
+
+    i, _ := strconv.Atoi(number)
+
+    printFibonacciSeries(i)
+
+}
+
+
+
+func printFibonacciSeries(num int) {
+
+    a := 0
+
+    b := 1
+
+    c := b
+
+    fmt.Printf("Series is: %d %d", a, b)
+
+    for true {
+
+        c = b
+
+        b = a + b
+
+        if b >= num {
+
+            fmt.Println()
+
+            break
+
+        }
+
+        a = c
+
+        fmt.Printf(" %d", b)
+
+    }
+
+}
+
+/////////////////////////////////////////////////////
+
+//Lab3
+package main
+
+import "fmt"
+
+func main() {
+	var x int
+	var y int
+	fmt.Println("Enter two numbers")
+	fmt.Scanln(&x, &y)
+
+	s, c := function1(x)
+	fmt.Println("Square and cube of x", s, c)
+	s1, c1 := function1(y)
+	fmt.Println("Square and cube of y", s1, c1)
+}
+
+func function1(x int) (int, int) {
+	var a = x * x
+	return a, a * x
+}
+////////////////////////////////////////////////////
+
+//Lab4
+
+package main
+
+
+
+import "fmt"
+
+
+
+func main(){
+
+    var str1 string
+
+    var str2 string
+
+    fmt.Println("Enter first string: ")
+
+    fmt.Scanln(&str1)
+
+    fmt.Println("Enter second string: ")
+
+    fmt.Scanln(&str2)
+
+
+
+    length := addString(str1,str2)
+
+    fmt.Println("Sum of length of two string is: ",length)
+
+}
+
+
+
+func addString(x string,y string )(int){
+
+    length1 := len(x)
+
+    length2 := len(y)
+
+    return length1+length2
+
+}
