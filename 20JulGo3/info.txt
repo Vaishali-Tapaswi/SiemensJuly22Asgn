@@ -1,0 +1,2 @@
+https://go.dev/tour/concurrency/1
+Write basic understanding in your words
