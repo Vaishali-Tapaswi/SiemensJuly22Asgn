@@ -1,0 +1,11 @@
+ Student MAP
+                -> CRUD 
+                while (){
+                
+                
+                        ask your -> C-Create , R - Read, U - Update, D - Delete
+                }
+                if user select C -> add a new entry in map
+                               R -> Show all entries in MAP
+                               U -> change existing student marks
+                               D -> Delete that student entry - delete(m, key)
