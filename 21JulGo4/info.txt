@@ -1,0 +1,9 @@
+Read basics for 
+  https://go.dev/blog/error-handling-and-go
+  https://www.linode.com/docs/guides/creating-reading-and-writing-files-in-go-a-tutorial/
+
+Create code to accept two parameters as file names merge those two and create third file as info.txt (override if already existing)
+
+
+Fill the form
+https://forms.gle/5BRJfkpCkbM2pk1a8
