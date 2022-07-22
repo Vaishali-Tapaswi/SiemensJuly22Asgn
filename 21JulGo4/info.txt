@@ -5,5 +5,4 @@ Read basics for
 Create code to accept two parameters as file names merge those two and create third file as info.txt (override if already existing)
 
 
-Fill the form
-https://forms.gle/5BRJfkpCkbM2pk1a8
+
